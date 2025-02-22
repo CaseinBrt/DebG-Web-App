@@ -1,5 +1,5 @@
    Flask==2.0.1
    gunicorn==20.1.0
-   numpy==1.21.6  # A stable version with pre-built wheels
+   numpy==1.23.5  # Use a stable version with pre-built wheels
    Pillow==8.2.0
    torch==1.13.1
