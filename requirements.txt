@@ -3,4 +3,5 @@
    numpy==1.23.5
    Pillow==8.2.0
    torch==1.13.1
-   Werkzeug==2.0.3  # Ensure compatibility with Flask
+   Werkzeug==2.0.3
+   opencv-python==4.5.5.64  # Add OpenCV
