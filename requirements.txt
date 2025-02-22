@@ -15,7 +15,6 @@ bcrypt==3.2.0
 blessed==1.20.0
 blinker==1.8.2
 bottle==0.13.2
-Brlapi==0.8.3
 certbot==1.21.0
 certbot-nginx==1.21.0
 certifi==2024.8.30
