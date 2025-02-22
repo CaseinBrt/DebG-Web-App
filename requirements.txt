@@ -3,5 +3,6 @@
    numpy==1.23.5
    Pillow==8.2.0
    torch==1.13.1
+   torchvision==0.14.1  # Add torchvision
    Werkzeug==2.0.3
-   opencv-python==4.5.5.64  # Add OpenCV
+   opencv-python==4.5.5.64
