@@ -1,4 +1,5 @@
 from .base_options import BaseOptions
+import sys
 
 
 class TestOptions(BaseOptions):
@@ -11,3 +12,10 @@ class TestOptions(BaseOptions):
         self.parser.add_argument('--which_epoch', type=str, default='70', help='which epoch to load? set to latest to use latest cached model')
         self.parser.add_argument('--how_many', type=int, default=5000, help='how many test images to run')
         self.isTrain = False
+
+    def parse(self, args=None):
+        if __name__ == "__main__":
+            opt = self.parse()
+        else:
+            opt = self.parse(sys.argv[1:])
+        return opt
