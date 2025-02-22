@@ -2,7 +2,7 @@
    gunicorn==20.1.0
    numpy==1.23.5
    Pillow==8.2.0
-   torch==1.13.1
-   torchvision==0.20.1  # Updated version
+   torch==2.5.1  # Updated version
+   torchvision==0.20.1  # Compatible version
    Werkzeug==2.0.3
    opencv-python==4.5.5.64
