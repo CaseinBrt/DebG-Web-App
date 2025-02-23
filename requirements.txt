@@ -6,5 +6,6 @@ Pillow==9.3.0
 torch==2.5.1
 torchvision==0.20.1
 Werkzeug==2.0.3
-opencv-python==4.5.5.64
+# opencv-python==4.5.5.64
+opencv-python-headless==4.5.5.64
 dominate==2.7.0
